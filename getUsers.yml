@@ -1,0 +1,17 @@
+---
+ - name: Retrun nginx Group users 
+   hosts: nginx
+   gather_facts: no
+   tasks:
+   - name: "Execute command"
+     shell: getent group nginxG
+     register: result_01
+
+   - name: write output to localhost
+     lineinfile:
+       line: "output: {{ result_01.stdout }}"
+       insertafter: EOF
+       dest: /var/lib/jenkins/workspace/itham-automation-pipeline_master/users.txt
+       create: yes
+     delegate_to: localhost 
+
