@@ -7,8 +7,6 @@ Additionally, the entire infrastructure is provisioned within AWS, utilizing spe
 
 ## Table of Contents
 
-## Table of Contents
-
 1. [Prerequisites](#prerequisites)
 2. [Installation Guides](#installation-guides)
     
