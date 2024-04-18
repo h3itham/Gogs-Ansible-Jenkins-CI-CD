@@ -141,7 +141,7 @@ This folder contains screenshots that serve as **proof** of completing the setup
 - [03-Jenkins-Dashboard.png](./screenshots/03-Jenkins-Dashboard.png): Jenkins dashboard showcasing the pipeline setup and builds.
 - [04-Success-Build.png](./screenshots/04-Success-Build.png): Successful build completion indication in Jenkins.
 - [05-Pipeline-Output.png](./screenshots/05-Pipeline-Output.png): Output of the CI/CD pipeline execution.
-- [06-Email-Information.png](./screenshots/06-Email-Information.png): Email notification containing build information (Status, Numuber, Date&tiem and Attachment).
+- [06-Email-Information.png](./screenshots/06-Email-Inforamtion.png): Email notification containing build information (Status, Numuber, Date&tiem and Attachment).
 - [07-Attachment-Content.png](./screenshots/07-Attachment-Content.png): Content of the attachment containing users in the nginxG group.
 - [08-Centos-welcome-page.png](./screenshots/08-Centos-welcome-page.png): CentOS welcome page, which serves as proof that Nginx is up and running on VM_3. Note: Many Linux distributions ship with a custom `index.html` file in the default web root directory, which is why the default Nginx page may not appear.
 
